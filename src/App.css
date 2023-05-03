@@ -1,38 +1,126 @@
-.App {
-  text-align: center;
+
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: #242248;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.time{
+  font-size: smaller;
+  font-weight: bolder;
+  width: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
+  width: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.top-bar{
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  
+}
+.splash-screen{
+  margin-top: 250px;
+  margin-bottom: 250px;
+}
+.splash-screen-title{
+  text-align: center;
+  
+  color: black;
+  font-size: 50px;
+  font-weight:bolder;
+  font-family: "intel",sans-serif;
+}
+.slogan{
+  text-align: right;
+  font-style: italic;
+}
+
+.top-bar div{
+  display: flex;
+  align-items:center;
+}
+
+.network{
+  width: 20px;
+}
+.wifi{
+  width: 25px;
+}
+.battery{
+  width: 20px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.logo-header{
+  text-align: center;
+  font-size: small;
+  font-weight: bold;
+  color: var(--clr-primary-1);
+}
+
+img{
+  margin-top: 80px;
+  margin-left: 20px;
+  width: 80%;
+}
+.article-dot{
+display: flex;
+justify-content: center;
+margin: 20px;
+font-size: 20px;
+}
+
+.article-header{
+  font-size: 24px;
+  font-weight: bolder;
+  margin: 15px;
+  text-align: left;
+ 
+}
+.article-content{
+  font-size: 14px;
+  margin: 5px;
+}
+.button-section{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 50px;
+}
+.next-button{
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color:var(--clr-primary-1);
   color: white;
+  width: 138px;
+  height: 50px;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 5px;
 }
-
-.App-link {
-  color: #61dafb;
+.button-text{
+  margin: 15px;
+  font-size: 12px;
+  font-weight: bold;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button-arrow{
+  font-size: 20px;
 }

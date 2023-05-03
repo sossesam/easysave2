@@ -1,3 +1,11 @@
+:root{
+  --clr-primary-1: #00068C;
+  --clr-primary-2:rgba(54, 71, 158, 0.1);
+  --clr-primary-3:#BDD7FF;
+  --clr-primary-4:rgba(0, 6, 140, 0.7);
+  --clr-primary-5:#36479E;;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
