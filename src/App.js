@@ -1,7 +1,5 @@
 
 import './App.css';
-import Onboarding2 from './components/Onboarding2';
-
 import WelcomePage from './components/WelcomePage';
 
 
